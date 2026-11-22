@@ -1,0 +1,27 @@
+# Ambientes virtuais e cache Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Artefatos de compilação PyInstaller e pastas locais de release
+build/
+build_*/
+dist/
+dist_*/
+release_github/
+*.spec
+
+# Perfis pessoais locais e logs temporários
+perfis/
+*.log
+*.err
+
+# Arquivos de sistema / IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

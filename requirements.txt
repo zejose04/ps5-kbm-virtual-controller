@@ -1,0 +1,15 @@
+# Dependências Python da Etapa 1 (Teste de Compatibilidade de Controle Virtual)
+#
+# ATENÇÃO CRÍTICA ANTES DE INSTALAR:
+# O pacote `vgamepad==0.2.0` é distribuído apenas como sdist (.tar.gz) e o seu
+# setup.py dispara AUTOMATICAMENTE o instalador legado ViGEmBus 1.17.333.0 se
+# não detectar a chave de desinstalação no registro.
+#
+# Sempre instale definindo antes a variável abaixo no PowerShell:
+#   $env:VGAMEPAD_SKIP_VIGEMBUS_INSTALL = "true"
+#   pip install -r requirements.txt
+#
+# O driver ViGEmBus 1.22.0 (WHQL) deve ser instalado separadamente e de forma
+# controlada pelo instalador oficial da Nefarius (consulte o README.md).
+
+vgamepad==0.2.0
